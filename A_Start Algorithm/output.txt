@@ -1,0 +1,9303 @@
+Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:\Users\Anindya\AppData\Local\Temp\Temp1_Assignment2_monotonicity_1811MC02_1821CS05_1821CS15.zip\projectPuzzle_Monotonicity.py 
+start state:
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+goal state:
+1 2 3
+
+4 5 6
+
+7 8 0
+
+
+the Puzzle is solvable, starting computing
+from manhattan_distance Heurestic SEARCH:
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  11
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  11
+child is : 
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  11
+child is : 
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 11
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  9
+child is : 
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 6 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+7 2 6
+
+0 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 5 6
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+h(parent) is:  4
+child is : 
+4 1 3
+
+2 5 0
+
+7 8 6
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+h(parent) is:  4
+child is : 
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 2
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+1 3 0
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  2
+child is : 
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+0 4 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 1
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 6 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  1
+child is : 
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 2
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  1
+child is : 
+1 2 3
+
+4 5 6
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 2
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  1
+child is : 
+1 2 3
+
+4 5 6
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 0
+OPTIMAL PATH:
+step 1 :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+step 2 :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+step 3 :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+step 4 :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+step 5 :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+step 6 :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+step 7 :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+step 8 :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+step 9 :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+step 10 :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+step 11 :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+step 12 :
+1 2 3
+
+4 5 6
+
+7 8 0
+
+
+total number of states explored: 14
+total number of states in optimal path: 12
+optimal cost of the path: 11
+Total time taken for execution: 2.254429817199707
+monotonic restriction is  maintained
+*************************************************
+from manhattan_distance Heurestic SEARCH with ADDED ZERO TILES:
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  12
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 14
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  12
+child is : 
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 14
+
+ monotonic restriction is violated
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  12
+child is : 
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  10
+child is : 
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  10
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  10
+child is : 
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is violated
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  10
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  10
+child is : 
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is violated
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+2 6 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 5 6
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is violated
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+h(parent) is:  4
+child is : 
+4 1 3
+
+2 5 0
+
+7 8 6
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+h(parent) is:  4
+child is : 
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+7 2 6
+
+0 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 6 0
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 1 0
+
+2 6 3
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 6 0
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 6 0
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+2 6 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 0
+
+7 8 6
+
+
+h(parent) is:  6
+child is : 
+4 1 0
+
+2 5 3
+
+7 8 6
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 0
+
+7 8 6
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 0 5
+
+7 8 6
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is violated
+parent is :
+4 1 3
+
+2 5 0
+
+7 8 6
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  14
+child is : 
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 16
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  14
+child is : 
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 14
+
+ monotonic restriction is violated
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  14
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is violated
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  14
+child is : 
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+h(parent) is:  12
+child is : 
+4 3 0
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+h(parent) is:  12
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 14
+
+ monotonic restriction is violated
+parent is :
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+h(parent) is:  12
+child is : 
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+h(parent) is:  14
+child is : 
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 16
+
+ monotonic restriction is violated
+parent is :
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+h(parent) is:  14
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  12
+child is : 
+4 0 6
+
+2 3 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 14
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  12
+child is : 
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is violated
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  12
+child is : 
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is violated
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  12
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 5 1
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 12
+
+ monotonic restriction is violated
+parent is :
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+h(parent) is:  10
+child is : 
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+0 7 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+0 5 6
+
+2 7 8
+
+
+cost from parent to child is 1
+h(child) 10
+
+ monotonic restriction is violated
+parent is :
+4 1 3
+
+2 5 6
+
+0 7 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is violated
+parent is :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is violated
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+1 3 0
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+1 2 3
+
+0 4 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is violated
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 2
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+1 2 3
+
+4 6 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 5 6
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is violated
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 5 6
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 0
+OPTIMAL PATH:
+step 1 :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+step 2 :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+step 3 :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+step 4 :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+step 5 :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+step 6 :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+step 7 :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+step 8 :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+step 9 :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+step 10 :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+step 11 :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+step 12 :
+1 2 3
+
+4 5 6
+
+7 8 0
+
+
+total number of states explored: 24
+total number of states in optimal path: 12
+optimal cost of the path: 11
+Total time taken for execution: 3.8225257396698
+monotonic restriction is not maintained
+*************************************************
+For displaced tiles Heurestic SEARCH:
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+0 4 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 6 0
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+0 3 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+7 2 8
+
+0 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 0
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+0 4 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 3 0
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+0 3 6
+
+4 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+0 4 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+2 4 6
+
+0 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+0 4 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 6 0
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 6 0
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 6 8
+
+2 3 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 0 6
+
+2 3 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+0 3 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 6 0
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 4 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+2 4 3
+
+0 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+0 4 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+2 1 6
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+2 6 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+2 4 3
+
+0 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 6 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  7
+child is : 
+3 0 6
+
+4 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+2 5 1
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+0 4 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  4
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  4
+child is : 
+4 1 3
+
+2 5 6
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  4
+child is : 
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+h(parent) is:  5
+child is : 
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+h(parent) is:  5
+child is : 
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+h(parent) is:  3
+child is : 
+4 1 3
+
+2 5 0
+
+7 8 6
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+h(parent) is:  3
+child is : 
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+7 2 8
+
+0 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+7 2 8
+
+0 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+7 2 8
+
+1 0 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+4 0 6
+
+1 3 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+1 7 8
+
+2 0 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+1 8 0
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+2 4 6
+
+0 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+0 4 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+2 4 6
+
+0 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+2 4 6
+
+7 3 8
+
+0 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+2 4 6
+
+0 3 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+2 4 6
+
+3 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 6 8
+
+2 3 0
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 6 0
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 6 8
+
+2 3 0
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 6 8
+
+2 0 3
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 6 8
+
+2 3 0
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 6 8
+
+2 3 5
+
+7 1 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 5
+
+0 7 1
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+0 4 6
+
+2 3 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 6 0
+
+2 3 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+0 3 6
+
+4 2 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+7 2 1
+
+0 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 6 0
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 6 0
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 6 8
+
+4 2 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+0 4 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+2 4 3
+
+7 8 6
+
+0 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+2 4 3
+
+8 0 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+0 8 3
+
+4 2 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+7 2 6
+
+0 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 1 6
+
+7 0 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 1 6
+
+7 0 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+2 1 6
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 1 6
+
+7 0 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+2 1 6
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 1 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 1 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+2 4 3
+
+7 1 6
+
+0 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 1 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+2 4 3
+
+1 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+7 2 6
+
+0 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  7
+child is : 
+0 3 6
+
+4 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  7
+child is : 
+3 1 6
+
+4 0 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  7
+child is : 
+3 6 0
+
+4 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 1 8
+
+7 0 5
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 1 8
+
+7 0 5
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 1 8
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 1 8
+
+7 0 5
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+3 2 0
+
+4 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 8 5
+
+7 1 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+h(parent) is:  5
+child is : 
+4 3 0
+
+2 5 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+h(parent) is:  5
+child is : 
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+h(parent) is:  5
+child is : 
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+h(parent) is:  6
+child is : 
+4 0 6
+
+2 3 5
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+0 2 5
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 2 1
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 2 1
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+3 0 6
+
+4 2 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 8 3
+
+4 2 6
+
+7 1 5
+
+
+h(parent) is:  4
+child is : 
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+0 8 3
+
+4 2 6
+
+7 1 5
+
+
+h(parent) is:  4
+child is : 
+8 0 3
+
+4 2 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+3 2 0
+
+4 8 6
+
+7 1 5
+
+
+h(parent) is:  4
+child is : 
+3 0 2
+
+4 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 2 0
+
+4 8 6
+
+7 1 5
+
+
+h(parent) is:  4
+child is : 
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  4
+child is : 
+4 0 3
+
+2 5 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  4
+child is : 
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 2
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+1 3 0
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  3
+child is : 
+0 4 3
+
+2 5 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  3
+child is : 
+4 5 3
+
+2 0 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  3
+child is : 
+4 3 0
+
+2 5 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  2
+child is : 
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+0 4 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 1
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 6 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  1
+child is : 
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 2
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  1
+child is : 
+1 2 3
+
+4 5 6
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 2
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  1
+child is : 
+1 2 3
+
+4 5 6
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 0
+OPTIMAL PATH:
+step 1 :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+step 2 :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+step 3 :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+step 4 :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+step 5 :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+step 6 :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+step 7 :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+step 8 :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+step 9 :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+step 10 :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+step 11 :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+step 12 :
+1 2 3
+
+4 5 6
+
+7 8 0
+
+
+total number of states explored: 57
+total number of states in optimal path: 12
+optimal cost of the path: 11
+Total time taken for execution: 7.966429710388184
+monotonic restriction is  maintained
+*************************************************
+For displaced tiles Heurestic SEARCH with ADDED ZERO TILES:
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+0 4 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 6 0
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+0 3 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+7 2 8
+
+0 1 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 0
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+0 4 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 3 0
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+h(parent) is:  9
+child is : 
+0 3 6
+
+4 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+2 1 8
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 0 6
+
+2 3 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+0 4 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+2 4 6
+
+0 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+0 4 6
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 6 0
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 0 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 6 0
+
+2 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 6 8
+
+2 3 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+0 3 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+3 6 0
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+2 4 3
+
+0 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 6 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+0 4 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+2 4 3
+
+0 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 4 3
+
+2 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 0 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 8 3
+
+2 1 6
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 8 3
+
+2 6 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+3 0 6
+
+4 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 5 1
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is violated
+parent is :
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+h(parent) is:  5
+child is : 
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+h(parent) is:  5
+child is : 
+4 3 6
+
+2 5 1
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 2 6
+
+0 4 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 2 6
+
+4 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 5 6
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is violated
+parent is :
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+h(parent) is:  3
+child is : 
+4 1 3
+
+2 5 0
+
+7 8 6
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+2 5 6
+
+7 8 0
+
+
+h(parent) is:  3
+child is : 
+4 1 3
+
+2 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+7 2 8
+
+0 1 5
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+0 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+7 2 8
+
+0 1 5
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+7 2 8
+
+1 0 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 8 5
+
+0 7 1
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 8 5
+
+7 1 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+h(parent) is:  9
+child is : 
+4 0 6
+
+1 3 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+0 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+1 7 8
+
+2 0 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+1 0 8
+
+2 7 5
+
+
+h(parent) is:  9
+child is : 
+4 3 6
+
+1 8 0
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+0 4 6
+
+2 3 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 0 6
+
+2 3 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 6 0
+
+2 3 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+0 3 6
+
+4 2 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+7 2 1
+
+0 5 8
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+h(parent) is:  8
+child is : 
+4 3 6
+
+2 0 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+2 4 6
+
+0 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+0 4 6
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+2 4 6
+
+0 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+2 4 6
+
+7 3 8
+
+0 1 5
+
+
+cost from parent to child is 1
+h(child) 9
+
+ monotonic restriction is maintained
+parent is :
+2 4 6
+
+0 3 8
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+2 4 6
+
+3 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 6 8
+
+2 3 0
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 6 0
+
+2 3 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 6 8
+
+2 3 0
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 6 8
+
+2 0 3
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 6 8
+
+2 3 0
+
+7 1 5
+
+
+h(parent) is:  8
+child is : 
+4 6 8
+
+2 3 5
+
+7 1 0
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 6 0
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+3 0 6
+
+4 2 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 6 0
+
+4 2 8
+
+7 1 5
+
+
+h(parent) is:  7
+child is : 
+3 6 8
+
+4 2 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+0 4 3
+
+2 1 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+2 4 3
+
+7 1 6
+
+0 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 1 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+2 4 3
+
+1 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+7 2 6
+
+0 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+h(parent) is:  6
+child is : 
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+0 4 3
+
+2 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+2 4 3
+
+7 8 6
+
+0 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+2 4 3
+
+0 8 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+2 4 3
+
+8 0 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+0 8 3
+
+4 2 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 8 3
+
+7 2 6
+
+0 1 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 1 6
+
+7 0 5
+
+
+h(parent) is:  6
+child is : 
+4 8 3
+
+2 0 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 1 6
+
+7 0 5
+
+
+h(parent) is:  6
+child is : 
+4 8 3
+
+2 1 6
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 1 6
+
+7 0 5
+
+
+h(parent) is:  6
+child is : 
+4 8 3
+
+2 1 6
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+0 3 6
+
+4 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+3 1 6
+
+4 0 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+3 0 6
+
+4 1 8
+
+2 7 5
+
+
+h(parent) is:  8
+child is : 
+3 6 0
+
+4 1 8
+
+2 7 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+h(parent) is:  6
+child is : 
+4 3 0
+
+2 5 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+h(parent) is:  6
+child is : 
+4 3 6
+
+2 5 1
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 1 8
+
+7 0 5
+
+
+h(parent) is:  6
+child is : 
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 1 8
+
+7 0 5
+
+
+h(parent) is:  6
+child is : 
+3 2 6
+
+4 1 8
+
+0 7 5
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 1 8
+
+7 0 5
+
+
+h(parent) is:  6
+child is : 
+3 2 6
+
+4 1 8
+
+7 5 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 2 0
+
+4 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 2 6
+
+4 0 8
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+h(parent) is:  6
+child is : 
+3 2 6
+
+4 8 5
+
+7 1 0
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+h(parent) is:  7
+child is : 
+4 0 6
+
+2 3 5
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+0 2 5
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 8 5
+
+7 0 1
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 3 6
+
+2 0 5
+
+7 8 1
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 2 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+4 3 6
+
+0 2 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+0 3 6
+
+4 2 1
+
+7 5 8
+
+
+h(parent) is:  7
+child is : 
+3 0 6
+
+4 2 1
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 6 8
+
+2 3 5
+
+7 1 0
+
+
+h(parent) is:  7
+child is : 
+4 6 8
+
+2 3 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+4 6 8
+
+2 3 5
+
+7 1 0
+
+
+h(parent) is:  7
+child is : 
+4 6 8
+
+2 3 5
+
+7 0 1
+
+
+cost from parent to child is 1
+h(child) 8
+
+ monotonic restriction is maintained
+parent is :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  5
+child is : 
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+0 8 3
+
+4 2 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+0 2 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+0 8 3
+
+4 2 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+8 0 3
+
+4 2 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 1 6
+
+7 5 0
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+2 1 0
+
+7 5 6
+
+
+cost from parent to child is 1
+h(child) 7
+
+ monotonic restriction is maintained
+parent is :
+4 8 3
+
+2 1 6
+
+7 5 0
+
+
+h(parent) is:  5
+child is : 
+4 8 3
+
+2 1 6
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  5
+child is : 
+4 0 3
+
+2 5 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 3 0
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  5
+child is : 
+4 3 6
+
+2 5 0
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 1 8
+
+7 5 0
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 1 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 1 8
+
+7 5 0
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 1 8
+
+7 0 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 0
+
+4 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+3 0 2
+
+4 8 6
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 0
+
+4 8 6
+
+7 1 5
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 8 5
+
+7 1 0
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 8 0
+
+7 1 5
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+3 2 6
+
+4 8 5
+
+7 1 0
+
+
+h(parent) is:  5
+child is : 
+3 2 6
+
+4 8 5
+
+7 0 1
+
+
+cost from parent to child is 1
+h(child) 6
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+h(parent) is:  4
+child is : 
+1 3 0
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  4
+child is : 
+0 4 3
+
+2 5 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  4
+child is : 
+4 5 3
+
+2 0 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+4 0 3
+
+2 5 6
+
+7 8 1
+
+
+h(parent) is:  4
+child is : 
+4 3 0
+
+2 5 6
+
+7 8 1
+
+
+cost from parent to child is 1
+h(child) 5
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+1 2 3
+
+0 4 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+cost from parent to child is 1
+h(child) 2
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+h(parent) is:  3
+child is : 
+1 2 3
+
+4 6 0
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 4
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is maintained
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 5 6
+
+0 7 8
+
+
+cost from parent to child is 1
+h(child) 3
+
+ monotonic restriction is violated
+parent is :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+h(parent) is:  2
+child is : 
+1 2 3
+
+4 5 6
+
+7 8 0
+
+
+cost from parent to child is 1
+h(child) 0
+OPTIMAL PATH:
+step 1 :
+4 3 6
+
+2 1 8
+
+7 0 5
+
+
+step 2 :
+4 3 6
+
+2 1 8
+
+7 5 0
+
+
+step 3 :
+4 3 6
+
+2 1 0
+
+7 5 8
+
+
+step 4 :
+4 3 0
+
+2 1 6
+
+7 5 8
+
+
+step 5 :
+4 0 3
+
+2 1 6
+
+7 5 8
+
+
+step 6 :
+4 1 3
+
+2 0 6
+
+7 5 8
+
+
+step 7 :
+4 1 3
+
+0 2 6
+
+7 5 8
+
+
+step 8 :
+0 1 3
+
+4 2 6
+
+7 5 8
+
+
+step 9 :
+1 0 3
+
+4 2 6
+
+7 5 8
+
+
+step 10 :
+1 2 3
+
+4 0 6
+
+7 5 8
+
+
+step 11 :
+1 2 3
+
+4 5 6
+
+7 0 8
+
+
+step 12 :
+1 2 3
+
+4 5 6
+
+7 8 0
+
+
+total number of states explored: 61
+total number of states in optimal path: 12
+optimal cost of the path: 11
+Total time taken for execution: 7.7862677574157715
+monotonic restriction is not maintained
+*************************************************
+Manhattan distance closed list number of nodes: 13
+Displaced tiles closed list number of nodes: 56
+matched content: 13
+press enter to exit
