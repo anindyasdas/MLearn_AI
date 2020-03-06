@@ -30,6 +30,7 @@ the left hand side clauses are: {'P', '(Q>F)'}
 moduls poenes gives {'P', '(Q>F)'}
 this is not a theorem since 'F' can't be derived
 please press Enter to exit
+############################################################################################################
  RESTART: C:\Backups\AI\DeductionThm_1811MC02_1821CS05_1821CS15\Deduction Theorem.py 
 the chosen expression is : ((P>Q)>((~Q>P)>P))
 the left hand side clauses are: {'((Q>F)>P)', '(P>F)', '(P>Q)'}
