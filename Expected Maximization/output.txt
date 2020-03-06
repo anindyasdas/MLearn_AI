@@ -1,0 +1,14 @@
+Provide input  , Number of trials: 10
+ Two Coins C1, C2, Provide probability of occuring C1 i.e P = .2
+Provide probability of Head in coin C1 i.e P1 = .8
+Provide probability of Head in coin C1 i.e P2 = .6
+Randomly generated coin sequence C1:first coin, C2:second coin
+['C2', 'C2', 'C1', 'C2', 'C2', 'C2', 'C2', 'C2', 'C2', 'C2']
+Randomly generated HEAD/TAIL sequence :1 represeants HEAD, 0 represents TAIL
+[1, 0, 1, 1, 1, 0, 1, 1, 0, 1]
+Starting the EM algorithm
+EM algorithm estimates the Probability: 
+Estimated P  :  0.20833333333333334
+Estimated P1 :  0.84
+Estimated P2 :  0.6631578947368422
+Press enter to exit
