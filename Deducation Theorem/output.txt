@@ -1,0 +1,38 @@
+Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:\Backups\AI\DeductionThm_1811MC02_1821CS05_1821CS15\Deduction Theorem.py 
+ #########################################################################################################
+the chosen expression is : ((P>Q)>((~Q>P)>Q))
+the left hand side clauses are: {'(P>Q)', '((Q>F)>P)', '(Q>F)'}
+moduls poenes gives {'P', '((Q>F)>P)', '(Q>F)', '(P>Q)', 'Q', 'F'}
+ since modus ponens derives F , the theorem is true
+please press Enter to exit
+ RESTART: C:\Backups\AI\DeductionThm_1811MC02_1821CS05_1821CS15\Deduction Theorem.py 
+ ##############################################################################################################
+the chosen expression is : (P>(PVQ))
+the left hand side clauses are: {'(Q>F)', 'P', '(P>F)'}
+moduls poenes gives {'(Q>F)', 'P', 'F', '(P>F)'}
+ since modus ponens derives F , the theorem is true
+please press Enter to exit
+ RESTART: C:\Backups\AI\DeductionThm_1811MC02_1821CS05_1821CS15\Deduction Theorem.py 
+ ####################################################################################################################
+the chosen expression is : ((P^Q)>(PVP))
+the left hand side clauses are: {'(P>F)', '((P>(Q>F))>F)'}
+I can't prove the theorem, with given information , can you provide any subtheorem between the following expressions ?
+{'(P>(Q>F))'}
+{'(P>F)'}
+yes/no? 
+################################################################################################## 
+ RESTART: C:\Backups\AI\DeductionThm_1811MC02_1821CS05_1821CS15\Deduction Theorem.py 
+the chosen expression is : (P>(P>Q))
+the left hand side clauses are: {'P', '(Q>F)'}
+moduls poenes gives {'P', '(Q>F)'}
+this is not a theorem since 'F' can't be derived
+please press Enter to exit
+ RESTART: C:\Backups\AI\DeductionThm_1811MC02_1821CS05_1821CS15\Deduction Theorem.py 
+the chosen expression is : ((P>Q)>((~Q>P)>P))
+the left hand side clauses are: {'((Q>F)>P)', '(P>F)', '(P>Q)'}
+moduls poenes gives {'((Q>F)>P)', '(P>F)', '(P>Q)'}
+this is not a theorem since 'F' can't be derived
+please press Enter to exit
