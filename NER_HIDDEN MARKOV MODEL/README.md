@@ -14,3 +14,4 @@ their performances.
 ● Hidden Markov Model (HMM)
 HMM implementation from scratch. Calculate emission and transition probabilities and use Viterbi
 to get the NER sequence.
+Crosvalidation is used size 3
