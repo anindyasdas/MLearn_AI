@@ -1,3 +1,4 @@
+#######################HMM without LIBRARY####################################################3
 Named-entity recognition (NER) seeks to locate and classify named entities in text
 into predefined categories such as the names of persons, organizations, locations
 etc.
